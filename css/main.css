@@ -38,3 +38,10 @@ li {
   background-color: #ede3db;
   list-style-type: none;
 }
+
+a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: .5em;
+}
