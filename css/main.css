@@ -10,11 +10,23 @@ html {
 
 img {
   width: 100%;
+  height: 16rem;
+  padding: 0 1rem;
 }
 
 h1, h2 {
   font-family: "Denk One", sans-serif;
   color: #623b0c;
+  padding: 1rem 0;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+h2 {
+  margin: 1rem 0 1.5rem;
+  padding-bottom: 0;
 }
 
 body {
@@ -30,21 +42,32 @@ ol {
     "col1 col2"
     "col1 col2";
   gap: 1rem;
+  padding: 1rem;
+  margin-top: -.5rem;
 }
 
 li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   border: 2px #623b0c solid;
   border-radius: 8px;
   background-color: #ede3db;
   list-style-type: none;
+  margin-bottom: 0;
 }
 
 a {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: .5em;
+  padding: .5em 1rem .6em;
   text-decoration: none;
-  color: #f5f2f0;
+  margin: 1rem;
+  border-radius: 8px;
+  color: #fff;
   background-color: #623b0c;
+}
+
+p {
+  padding: .5em 1rem .6em;
+  margin-bottom: .5rem;
 }
