@@ -59,12 +59,12 @@ li {
 }
 
 a {
-  padding: .5em 1rem .6em;
+  color: #fff;
+  background-color: #623b0c;
   text-decoration: none;
   margin: 1rem;
   border-radius: 8px;
-  color: #fff;
-  background-color: #623b0c;
+  padding: .5em 1rem .6em;
 }
 
 p {
