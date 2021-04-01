@@ -62,13 +62,13 @@ li {
 a {
   color: #fff;
   background-color: #623b0c;
-  text-decoration: none;
-  margin: 1rem;
   border-radius: 8px;
+  text-decoration: none;
   padding: .5em 1rem .6em;
+  margin: 1rem;
 }
 
 p {
-  padding: .5em 1rem .6em;
+  padding: .5em 1rem 0;
   margin-bottom: .5rem;
 }
